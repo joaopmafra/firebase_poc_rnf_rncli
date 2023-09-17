@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "412953969270",
+    "project_id": "fir-poc-affcc",
+    "storage_bucket": "fir-poc-affcc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:412953969270:android:b6a34694f9bbaa36f71557",
+        "android_client_info": {
+          "package_name": "com.firebase_poc_rnf_rncli"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDVygk4_GUYHLjdE7CPJXm2UaHG_L7JMFY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
