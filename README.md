@@ -1,4 +1,10 @@
+# firebase_poc_rnf_rncli
+
 This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+
+It was based on the following tutorials:
+- https://aboutreact.com/react-native-firebase-authentication/
+- https://aboutreact.com/react-native-firebase-cloud-firestore-db/
 
 # Getting Started
 
