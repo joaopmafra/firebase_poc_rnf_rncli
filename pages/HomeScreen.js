@@ -86,6 +86,12 @@ const HomeScreen = ({navigation}) => {
             onPress={logout}>
             <Text style={styles.buttonTextStyle}>Logout</Text>
           </TouchableOpacity>
+          <TouchableOpacity
+            style={styles.buttonStyle}
+            activeOpacity={0.5}
+            onPress={() => navigation.navigate('UsersHomeScreen')}>
+            <Text style={styles.buttonTextStyle}>Users CRUD</Text>
+          </TouchableOpacity>
         </View>
         <Text
           style={{

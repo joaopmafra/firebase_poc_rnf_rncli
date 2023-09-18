@@ -21,6 +21,14 @@ import SplashScreen from './pages/SplashScreen';
 import LoginScreen from './pages/LoginScreen';
 import RegisterScreen from './pages/RegisterScreen';
 import HomeScreen from './pages/HomeScreen';
+import UsersHomeScreen from './pages/UsersHomeScreen';
+import RegisterUser from './pages/RegisterUser';
+import UpdateUser from './pages/UpdateUser';
+import ViewAllUser from './pages/ViewAllUser';
+import ViewUser from './pages/ViewUser';
+import DeleteUser from './pages/DeleteUser';
+import RealTimeAddUpdateUser from './pages/RealTimeAddUpdateUser';
+import AddOrderSummary from './pages/AddOrderSummary';
 
 const Stack = createStackNavigator();
 
@@ -82,6 +90,46 @@ const App = () => {
               fontWeight: 'bold', //Set Header text style
             },
           }}
+        />
+        <Stack.Screen
+          name="UsersHomeScreen"
+          component={UsersHomeScreen}
+          options={{title: 'Users Home'}}
+        />
+        <Stack.Screen
+          name="RegisterUser"
+          component={RegisterUser}
+          options={{title: 'Register User'}}
+        />
+        <Stack.Screen
+          name="UpdateUser"
+          component={UpdateUser}
+          options={{title: 'Update User'}}
+        />
+        <Stack.Screen
+          name="ViewAllUser"
+          component={ViewAllUser}
+          options={{title: 'View All Users'}}
+        />
+        <Stack.Screen
+          name="ViewUser"
+          component={ViewUser}
+          options={{title: 'View User'}}
+        />
+        <Stack.Screen
+          name="DeleteUser"
+          component={DeleteUser}
+          options={{title: 'Delete User'}}
+        />
+        <Stack.Screen
+          name="RealTimeAddUpdateUser"
+          component={RealTimeAddUpdateUser}
+          options={{title: 'Real Time User Updates'}}
+        />
+        <Stack.Screen
+          name="AddOrderSummary"
+          component={AddOrderSummary}
+          options={{title: 'Add Order Summary'}}
         />
       </Stack.Navigator>
     </NavigationContainer>
